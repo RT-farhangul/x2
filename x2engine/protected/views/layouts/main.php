@@ -239,6 +239,7 @@ foreach($modules as $moduleItem){
             'itemOptions' => array ('class' => 'top-bar-module-link'),
             'url' => array("/profile/activity"),
             'active' => (strtolower($module) == strtolower($name)) ? true : null);
+
         continue;
     }  elseif ($name === 'charts') { 
         if (!(Yii::app()->params->isAdmin || 
@@ -539,6 +540,7 @@ echo X2Html::openBodyTag ($preferences);
 //if (YII_DEBUG && YII_UNIT_TESTING) {
 //    echo "<div id='qunit'></div>";
 //}
+
 ?>
 
 <div id="page-container">

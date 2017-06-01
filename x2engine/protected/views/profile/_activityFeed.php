@@ -240,7 +240,16 @@ $this->renderPartial ('_feedFilters');
             </div>
             <div class="cell" id="feed_record_links" style="display:none;"></div>
         </div>
-
+        <div class="float-row">
+            new code here...
+            <?php
+                echo $form->dropDownList($feed,'subtype',
+                array_map(
+                'translateOptions',
+                Dropdowns::getSocialSubtypes ()),
+                array ('class' => 'x2-select'));
+            ?>
+        </div>
         <div id='second-row-buttons-container'>
             <?php
             echo CHtml::hiddenField('geoCoords', '');
@@ -278,6 +287,9 @@ $this->renderPartial ('_feedFilters');
             $checkinByDefault = Yii::app()->settings->checkinByDefault;
             Yii::app()->clientScript->registerCheckinScript("#feed-form input[type=\'submit\'", $checkinByDefault);
         ?>
+    </div>
+    <div>
+        custom code here ...
     </div>
     <?php $this->endWidget(); ?>
 </div>

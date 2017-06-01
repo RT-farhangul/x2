@@ -60,6 +60,7 @@ class WorkflowStageDetailsWidget extends SortableWidget {
         if (!isset ($this->_associationType)) {
             $this->_associationType = X2Model::getAssociationType (get_class ($this->model));
         }
+
         return $this->_associationType;
     }
 
@@ -75,6 +76,8 @@ class WorkflowStageDetailsWidget extends SortableWidget {
             $this->_currentWorkflow = $this->controller->getCurrentWorkflow(
                 $this->model->id, $this->getAssociationType ());
         }
+        echo "val:";
+        var_dump($this->_currentWorkflow); //exit;
         return $this->_currentWorkflow;
     }
 

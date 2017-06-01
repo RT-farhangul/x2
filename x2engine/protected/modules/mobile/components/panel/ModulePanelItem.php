@@ -49,6 +49,7 @@ class ModulePanelItem extends PanelItem {
 
     private $_isSelected;
     public function getIsSelected () {
+
         if (!isset ($this->_isSelected)) {
             $this->_isSelected = 
                 $this->module->name === 'users' &&

@@ -36,6 +36,7 @@
  **********************************************************************************/
 
 // change the following paths if necessary
+asdfasdf
 $constants = __DIR__.DIRECTORY_SEPARATOR.'constants.php';
 $yii = implode(DIRECTORY_SEPARATOR, array(__DIR__, 'framework', 'yii.php'));
 require_once($constants);

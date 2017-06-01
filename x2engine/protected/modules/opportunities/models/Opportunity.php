@@ -203,6 +203,7 @@ class Opportunity extends X2Model {
 	}
 
 	public function search($resultsPerPage=null, $uniqueId=null) {
+	    echo 'inside search'; //exit;
 		$criteria=new CDbCriteria;
 		// $parameters=array("condition"=>"salesStage='Working'",'limit'=>ceil(Profile::getResultsPerPage()));
 		$parameters=array('limit'=>ceil(Profile::getResultsPerPage()));
@@ -213,7 +214,7 @@ class Opportunity extends X2Model {
 
 	public function searchAdmin() {
 		$criteria=new CDbCriteria;
-
+        echo 'inside search2'; //exit;
 		return $this->searchBase($criteria);
 	}
 

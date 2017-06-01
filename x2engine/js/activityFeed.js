@@ -183,7 +183,8 @@ ActivityFeed.prototype.publishPost = function  () {
             "visibility":$("#Events_visibility").val(),
             "subtype":$("#Events_subtype").val(),
             "recordLinks":$("#Events_recordLinks").val(),
-            "geoCoords":$("#geoCoords").val()
+            "geoCoords":$("#geoCoords").val(),
+            "test_field1":$("#Events_test_field1").val(), 
         },
         success:function(){
             that.finishMinimizeEditor ();

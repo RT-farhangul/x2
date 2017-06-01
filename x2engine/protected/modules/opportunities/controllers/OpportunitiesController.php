@@ -311,6 +311,7 @@ class OpportunitiesController extends x2base {
      */
     public function actionIndex() {
         $model=new Opportunity('search');
+        //var_dump($this); exit;
         $this->render('index', array('model'=>$model));
     }
 

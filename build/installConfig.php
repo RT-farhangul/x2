@@ -1,4 +1,5 @@
 <?php
+echo "called"; die();
 $host = '127.0.0.1';
 $db='x2engine';
 $user='root';

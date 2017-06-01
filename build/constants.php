@@ -8,7 +8,7 @@ if(file_exists($brandingConstants = implode(DIRECTORY_SEPARATOR, array(__DIR__,'
 
 
 // remove the following lines when in production mode
-defined('YII_DEBUG') or define('YII_DEBUG',false);
+defined('YII_DEBUG') or define('YII_DEBUG',true);
 
 if (!YII_DEBUG) {
     assert_options (ASSERT_ACTIVE, false);
@@ -31,7 +31,7 @@ defined('YII_LOGGING') or define('YII_LOGGING',true);
 defined('X2_TRANSLATION_LOGGING') or define('X2_TRANSLATION_LOGGING',false);
 
 // If true, adds debug toolbar route to array of debug log routes 
-defined('YII_DEBUG_TOOLBAR') or define('YII_DEBUG_TOOLBAR',false);
+defined('YII_DEBUG_TOOLBAR') or define('YII_DEBUG_TOOLBAR',true);
 
 // Indicates that the application is being run as part of a unit test. 
 defined('YII_UNIT_TESTING') or define('YII_UNIT_TESTING',true);
@@ -40,7 +40,7 @@ defined('YII_UNIT_TESTING') or define('YII_UNIT_TESTING',true);
 defined('X2_PRIMARY_ADMIN_ID') or define('X2_PRIMARY_ADMIN_ID',1);
 
 // This should be set to false in production environments
-defined('X2_DEV_MODE') or define('X2_DEV_MODE',false);
+defined('X2_DEV_MODE') or define('X2_DEV_MODE',true);
 
 /*
 Set to true to enable updating to beta versions.

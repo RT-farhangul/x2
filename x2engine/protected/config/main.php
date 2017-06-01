@@ -341,6 +341,7 @@ $config = array(
         'webRoot' => __DIR__.DIRECTORY_SEPARATOR.'..',
         'trueWebRoot' => substr(__DIR__, 0, -17),
         'registeredWidgets' => array(
+            'CustomWidget' => 'Custom Widget',
              
             'FlowMacros' => 'Execute Workflow',
              
