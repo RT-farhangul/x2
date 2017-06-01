@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="27f2ecdd-63a5-451f-811d-015c31c6c110" name="a" url="http://localhost:8300">
+        <fileTransfer port="0" mountedRoot="$PROJECT_DIR$/x2engine" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

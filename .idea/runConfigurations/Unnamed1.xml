@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Unnamed1" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$/x2engine" host="127.0.0.1" port="8300">
+    <CommandLine workingDirectory="$PROJECT_DIR$/x2engine" />
+    <option name="workingDirectory" value="$PROJECT_DIR$/x2engine" />
+    <method />
+  </configuration>
+</component>
